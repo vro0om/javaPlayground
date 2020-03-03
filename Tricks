@@ -1,0 +1,4 @@
+Q.) Consider a system with a 32-bit logical address space. If the page size in such a system is 4 KB (2^12), then a page table may consist of up to 1 million entries (2^32/2^12). Assuming that each entry consists of 4 bytes, each process may need up to 4 MB of physical address space for the page table alone.
+
+A.) Since we have a virtual address space of 2^32 and each page size is 2^12, we can store (2^32/2^12) = 2^20 pages. Since each entry into this page table has an address of size 4 bytes, then we have 2^20*4 = 4MB. So the page table takes up 4MB in memory.
+
