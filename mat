@@ -1,0 +1,346 @@
+Core java
+
+http://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
+http://www.concretepage.com/java/example_weakhashmap
+http://stackoverflow.com/questions/5511279/what-is-a-weakhashmap-and-when-to-use-it
+http://javahungry.blogspot.com/2015/09/difference-between-weakhashmap-and-hashmap-with-exmaple.html
+https://blogs.oracle.com/CoreJavaTechTips/entry/the_need_for_bigdecimal
+http://www.leepoint.net/data/numbers/10biginteger.html
+
+http://beginnersbook.com/2014/06/difference-between-iterator-and-listiterator-in-java/
+http://javahungry.blogspot.com/2015/07/difference-between-arraylist-and-copyonwritearraylist-with-example.html
+http://beginnersbook.com/2013/12/difference-between-arraylist-and-vector-in-java/
+http://beginnersbook.com/2013/12/difference-between-arraylist-and-hashmap-in-java/
+http://beginnersbook.com/2013/12/sort-arraylist-in-descending-order-in-java/
+http://beginnersbook.com/2014/07/hashtable-iterator-example-java/
+http://javahungry.blogspot.com/search?q=concurrenthashmap
+https://javarevisited.blogspot.com/2013/02/concurrenthashmap-in-java-example-tutorial-working.html
+
+http://tutorials.jenkov.com/java-exception-handling/try-with-resources.html
+http://www.journaldev.com/592/java-try-with-resources
+http://www.javatpoint.com/generics-in-java
+http://javahungry.blogspot.com/2015/10/difference-between-identityhashmap-and-hashmap-with-example.html
+https://himanshugpt.wordpress.com/2010/03/24/difference-between-hashmap-and-identityhashmap/
+http://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
+http://javarevisited.blogspot.in/2012/12/how-classloader-works-in-java.html
+
+
+
+https://java2blog.com/serialization-in-java/
+
+======== If you don’t want subclass to serializable then you need to implement writeObject() and readObject()
+======== method and need to throw NotSerializableException from this methods.
+http://www.csanimated.com/animation.php?t=Red-black_tree
+https://www.geeksforgeeks.org/internal-working-of-hashmap-java/
+http://www.java2blog.com/2014/02/hashcode-and-equals-method-in-java.html--------------5
+http://javadata.blogspot.in/2011/12/singleton-and-serialization.html-------------7
+http://www.java2blog.com/2014/07/how-hashset-works-in-java.html----------------12
+http://www.mkyong.com/java/how-to-sort-a-map-in-java/
+http://www.apwebco.com/aggregation/AggregationComposition.html---------------8
+http://examples.javacodegeeks.com/core-java/java-volatile-keyword-example/-------------10
+http://javahungry.blogspot.com/2014/06/how-treemap-works-ten-treemap-java-interview-questions.html-------------13
+http://javapapers.com/java/types-of-java-garbage-collectors/------------------11
+http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html--------done already cleared
+
+http://www.java2blog.com/2014/07/find-nth-element-from-end-of-linkedlist.html--------later------15
+
+==========================================================================================================
+several changes have been made to make the class immutable:
+
+    The class is final. That means no subclasses can be created....
+    The variables are all final and cannot be changed after construction.
+    There are no setter methods for the members.
+
+http://www.programcreek.com/2012/04/why-do-we-need-generic-types-in-java/
+https://aishwaryavaishno.wordpress.com/2013/05/24/singleton-in-multithreaded-environment/
+http://technonstop.com/java-singleton-reflection-and-lazy-initialization
+http://www.javacodegeeks.com/2014/03/8-new-features-for-java-8.html
+http://viralpatel.net/blogs/lambda-expressions-java-tutorial/
+http://blog.decaresystems.ie/2014/04/09/better-type-inference-in-java-8-generics/
+
+http://httpstatus.es/
+http://geekexplains.blogspot.in/2008/06/whats-http-explain-http-request-and.html
+http://www.j2eeonline.com/advanced-java-oop/module2/common-java-exceptions.jsp
+
+difference b/w valueOf & parseInt method in java 
+http://javarevisited.blogspot.in/2012/02/fail-safe-vs-fail-fast-iterator-in-java.html
+http://javaconceptoftheday.com/difference-between-shallow-copy-vs-deep-copy-in-java/
+
+=======Core again ==========
+
+http://www.java67.com/2015/03/how-to-remove-duplicates-from-arraylist.html
+https://www.techonthenet.com/oracle/tables/alter_table.php
+
+http://www.java67.com/2012/08/difference-between-hashset-and-treeset-java.html
+http://www.java67.com/2012/10/how-to-convert-arraylist-to-string-in-java-example.html
+
+int count = string.length() - string.substring.replaceAll("g","").length()
+
+String, StringBuffer, StringBuilder,Bigdecimal , BigInteger , All Wrapper class, Math class and System also final classes
+
+-Xms     Initial heap memory size
+-Xmx     Maximum heap memory size
+-Xmn     Size of Young Generation
+
+http://itsvenkis.blogspot.in/2013/05/how-to-create-object-pools-on-fly.html
+
+==============================================
+stackoverflow 
+https://stackoverflow.com/questions/22182669/what-actually-causes-a-stack-overflow-error
+outofmemory
+http://javarevisited.blogspot.in/2011/09/javalangoutofmemoryerror-permgen-space.html#axzz4nBJe7PRb
+
+diff between for each and for loop
+http://javarevisited.blogspot.in/2017/01/difference-between-for-loop-and-enhanced-forlop-in-java.html#axzz4nBJe7PRb
+https://stackoverflow.com/questions/18508786/for-each-vs-iterator-which-will-be-the-better-option
+
+ClassNotFoundException
+http://javarevisited.blogspot.in/2011/08/classnotfoundexception-in-java-example.html#axzz4nBJe7PRb
+
+
+NoClassDefFoundError
+https://stackoverflow.com/questions/17973970/how-to-solve-java-lang-noclassdeffounderror
+
+diff between server and servlet container
+when classloader comes into action
+
+http://javaconceptoftheday.com/differences-between-enumeration-vs-iterator-in-java/
+http://freefeast.info/difference-between/difference-between-web-server-and-application-server/      
+
+CREATE INDEX index_name ON table_name(column_name) ;
+
+==============================From 18th jan 2020===================================================================================
+
+Concurrency
+7 ways to achieve synchronization
+
+
+http://tutorials.jenkov.com/java-util-concurrent/atomicinteger.html
+http://www.journaldev.com/1095/atomicinteger-java  ----
+http://javarevisited.blogspot.in/2012/07/countdownlatch-example-in-java.html  ----
+http://www.java-redefined.com/p/java-count.html                       ----
+http://www.java-redefined.com/p/cyclicbarrier.html   ----
+http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html    ----
+http://www.journaldev.com/2340/java-scheduledthreadpoolexecutor-example-to-schedule-tasks-after-delay-and-execute-periodically  ---- 
+http://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html  ---- 
+http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html   ----
+http://examples.javacodegeeks.com/core-java/util/concurrent/arrayblockingqueue/java-util-concurrent-arrayblockingqueue/ ----
+http://www.javacodex.com/Concurrency/PriorityBlockingQueue-Example         ----
+http://examples.javacodegeeks.com/core-java/util/concurrent/linkedblockingqueue/java-util-concurrent-linkedblockingqueue-example/    ----
+https://www.javacodegeeks.com/2014/11/multithreading-concurrency-interview-questions-answers.html#1
+http://winterbe.com/posts/2015/05/22/java8-concurrency-tutorial-atomic-concurrent-map-examples/
+set path=C:\Program Files\Java\jdk1.6.0_20\bin
+
+http://www.journaldev.com/1090/java-callable-future-example
+
+ then stress code 
+
+http://www.codejava.net/java-core/the-java-language/what-is-encapsulation-in-java-the-what-why-and-how
+-----
+what is semafour 
+--http://javarevisited.blogspot.in/2012/05/counting-semaphore-example-in-java-5.html
+--https://crunchify.com/what-is-java-semaphore-and-mutex-java-concurrency-multithread-explained-with-example/
+Q. 
+class  Retest{
+
+
+void method t1(){
+
+
+              {
+                             // this block of code must be accessible by only 5 threads simultaneously among 100 of threads  
+              }
+}
+
+}
+
+retarantlock.lock
+retarantlock.lock
+
+retarantlock.unlock
+
+removed duplicate elements fron list in 0(1)
+
+              System.out.println("\nExample 1 - Count 'a' with frequency");
+              System.out.println("a : " + Collections.frequency(list, "a"));
+              
+              System.out.println("\nExample 2 - Count all with frequency");
+              Set<String> uniqueSet = new HashSet<String>(list);
+              for (String temp : uniqueSet) {
+                             System.out.println(temp + ": " + Collections.frequency(list, temp));
+              }
+              
+retrantlock
+--http://www.concretepage.com/java/reentrantlock-java-example-with-lock-unlock-trylock-lockinterruptibly-isheldbycurrentthread-and-getholdcount
+--https://examples.javacodegeeks.com/core-java/util/concurrent/locks-concurrent/reentrantlock/java-reentrantlock-example/
+--http://javarevisited.blogspot.in/2013/03/reentrantlock-example-in-java-synchronized-difference-vs-lock.html
+
+Retranncelock
+
+
+
+cardinality constraints in the DBMS 
+https://way2java.com/casting-operations/java-int-to-short/
+
+https://www.geeksforgeeks.org/strictfp-keyword-java/
+https://www.javatpoint.com/strictfp-keyword
+
+
+Difference between high cohesion and low cohesion:
+Cohesion is the Object Oriented principle most closely associated with making sure that a class is designed with a single, well-focused purpose.
+The more focused a class is, the cohesiveness of that class is more. The advantages of high cohesion is that such classes are much easier to maintain (and less frequently changed) 
+than classes with low cohesion. Another benefit of high cohesion is that classes with a well-focused purpose tend to be more reusable than other classes. 
+
+High cohesion is when you have a class that does a well defined job. Low cohesion is when a class does a lot of jobs that don’t have much in common.
+High cohesion gives us better maintaining facility and Low cohesion results in monolithic classes that are difficult to maintain, understand and reduces re-usability
+
+https://www.geeksforgeeks.org/association-composition-aggregation-java/
+
+Arrays.sort() vs Collections.sort()
+
+
+https://www.tutorialspoint.com/java/lang/object_getclass.htm
+
+https://www.geeksforgeeks.org/data-types-in-java/
+
+
+JsonIgnore in entity ??
+
+difference between cascade all and cascade merge
+https://dzone.com/articles/stackoverflowerror-causes-amp-solutions
+
+https://www.geeksforgeeks.org/stream-in-java/
+
+We can use Stream.of() to create a stream from similar type of data. 
+For example, we can create Java Stream of integers from a group of int or Integer objects.
+We can use Stream.of() with an array of Objects to return the stream
+Stream<Integer> stream = Stream.of(new Integer[]{1,2,3,4}); 
+
+A mutable builder for a Stream . This allows the creation of a Stream by generating elements individually and adding them to the Builder (without the copying overhead that comes from using an ArrayList as a temporary buffer.)
+
+
+StringJoiner is mutable and non-synchronized
+=================================================================================================
+http://www.appsdeveloperblog.com/crossorigin-restful-web-service/
+
+
+Http request send from angular take response is written in above three formats only
+xml, json , csv
+
+FormData object of angular is used to send file from front end to back end and then in backend it is being save in s3 in sensformer application
+
+https://alvinalexander.com/java/java-law-of-demeter-java-examples
+https://dzone.com/articles/the-liskov-substitution-principle-with-examples
+https://stackoverflow.com/questions/56860/what-is-an-example-of-the-liskov-substitution-principle   // good example  - Fundamentally different in hierarchy 
+
+OPTIONS method of http is used to check for preflight request checking when the application is launch from the browser to check the origin is valid or not.
+
+
+Interface segregation principle - A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
+Ex - FAT interface
+Open-closed Principle - Objects or entities should be open for extension, but closed for modification.
+
+ConcurrentHashMap is best suited when you have multiple readers and few writers. If writers outnumber reader, or writer is equal to reader, than performance of ConcurrentHashMap effectively reduces to synchronized map or Hashtable. Performance of CHM drops, because you got to lock all portion of Map, and effectively each reader will wait for another writer, operating on that portion of Map. ConcurrentHashMap is a good choice for caches, which can be initialized during application start up and later accessed my many request processing threads. As javadoc states, CHM is also a good replacement of Hashtable and should be used whenever possible, keeping in mind, that CHM provides slightly weeker form of synchronization than Hashtable.
+
+
+Cross-origin requests, in short, are HTTP requests where the origin and the target of the request are different. This is the case, for instance, when a web application is served from one domain and the browser sends an AJAX request to a server in another domain.
+
+To manage cross-origin requests, the server needs to enable a particular mechanism known as CORS, or Cross-Origin Resource Sharing.
+
+The first step in CORS is an OPTIONS request to determine whether the target of the request supports it. This is called a pre-flight request.
+
+=====================================================================================================================================
+
+https://javabrains.thinkific.com/courses/springboot-quickstart
+
+https://www.tutorialspoint.com/spring_boot/index.htm
+https://howtodoinjava.com/spring-boot-tutorials/
+
+
+public ResponseEntity<CustomResponse<String>> saveNewSubstationDetails(@RequestBody List<BayDetails> bayDetailsList, @RequestParam String substationName, @RequestParam int groupId, @RequestParam String action)
+{
+              return new ResponseEntity<>(new CustomResponse<>("Substation successfully created"), HttpStatus.OK);
+}
+
+https://restfulapi.net/rest-put-vs-post/ 
+
+
+    @GetMapping("getProductType/{equipId}")
+    public ResponseEntity<ProductInfo> getProdTypes(@PathVariable int equipId)
+    {
+        ProductInfo productInfo = prodInfoService.getProductInfo(equipId);
+        HttpStatus status = null;
+        if (productInfo != null)
+        {
+            status = HttpStatus.OK;
+        }
+        else
+        {
+            status = HttpStatus.BAD_REQUEST;
+        }
+        return new ResponseEntity<>(productInfo, status);
+    }
+
+
+public ResponseEntity<CustomResponse<List<SubstationDetails>>> getSubstations()
+return new ResponseEntity<>(new CustomResponse<>(subtationList), HttpStatus.OK);
+
+=====================================================================================
+spring security
+https://dzone.com/articles/spring-security-authentication
+https://codesjava.com/spring-security-architecture-diagram
+https://blog.imaginea.com/spring-security-architecture-part-1/
+
+https://dzone.com/articles/spring-boot-security-json-web-tokenjwt-hello-world
+
+
+https://spring.io/guides/topicals/spring-security-architecture
+
+
+  getAllUserRoles(): Observable<string[]> {
+    return this.http.get<string[]>(this.userRolesUrl);
+  }
+
+              @GetMapping("/getUserRoles")
+              public List<String> getUserRoles()  //return particular roles
+              {
+                             LOGGER.debug("Executing method {}", "getUserRoles");
+                             return userRolesService.getallRoles();
+              }
+
+              
+https://developer.okta.com/blog/2019/06/20/spring-preauthorize
+
+https://www.edureka.co/blog/interview-questions/spring-boot-interview-questions/
+https://www.springboottutorial.com/spring-boot-interview-questions
+https://www.baeldung.com/spring-boot-interview-questions
+https://www.javatpoint.com/spring-boot-interview-questions
+https://dzone.com/articles/top-10-spring-boot-interview-questions
+
+
+https://www.boraji.com/spring-boot-configurationproperties-example
+              
+different types of spring container
+design patterns supported in spring boot 
+https://java2blog.com/implement-queue-using-array-in-java/
+https://www.geeksforgeeks.org/array-implementation-of-queue-simple/
+
+https://www.geeksforgeeks.org/create-linked-list-from-a-given-array/
+
+order of beans in spring boot
+
+https://blog.heaphero.io/2017/10/13/how-to-capture-java-heap-dumps-7-options/
+https://www.geeksforgeeks.org/reentrant-lock-java/
+https://www.journaldev.com/2377/java-lock-example-reentrantlock
+https://examples.javacodegeeks.com/core-java/util/concurrent/locks-concurrent/reentrantlock/java-reentrantlock-example/
+https://javabypatel.blogspot.com/2019/03/reentrantlock-interview-questions-in-java.html
+https://stackoverflow.com/questions/23730834/how-to-create-fair-lock-to-solve-starvation-in-java
+https://dzone.com/articles/what-are-reentrant-locks
+https://www.ai1tutorial.com/print-natural-numbers-1-to-100-using-two-threads/
+https://javatutorial.net/livelock-and-deadlock-in-java
+https://www.baeldung.com/jvm-garbage-collectors
+
+
+http://netjs.blogspot.in/2016/02/injecting-prototype-bean-in-singleton-spring.html
+https://prasanthnath.wordpress.com/2013/03/21/injecting-a-prototype-bean-into-a-singleton-bean/d
+https://www.tutorialspoint.com/spring/spring_bean_life_cycle.htm 
