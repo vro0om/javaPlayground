@@ -1,0 +1,97 @@
+package explore;
+
+public class CalculationTest
+{
+	private static long dtime;
+	private static long rstime;
+	private static long mtime;
+	private static long atime;
+
+	public static void main(String[] args)
+	{
+		CalculationTest calculationTest = new CalculationTest();
+		{
+			for (int i = 0; i < 50000; i++)
+			{
+				calculationTest.cacl();
+			}
+			
+			System.out.println( "Division TIme " +dtime);
+			System.out.println( "rs TIme " +rstime);
+
+			System.out.println( "mod TIme " +mtime);
+
+			System.out.println( "at TIme " +atime);
+
+		}
+	}
+
+	private  void cacl()
+	{
+		int refNumber = 65535;
+		long startT;
+		long endT;
+		startT = System.nanoTime();
+		int n;
+		n = performDivision(refNumber);
+		endT = System.nanoTime();
+		dtime += endT-startT;
+
+		startT = System.nanoTime();
+		performRightShift(refNumber);
+		endT = System.nanoTime();
+		rstime += endT-startT;
+
+		startT = System.nanoTime();
+		performMod(refNumber);
+		endT = System.nanoTime();
+		mtime += endT-startT;
+
+		startT = System.nanoTime();
+		performAnd(refNumber);
+		endT = System.nanoTime();
+		atime += endT-startT;
+
+	}
+
+	private int performAnd(int refNumber)
+	{
+		int sum = 0;
+		for (int n = 0; n < refNumber; n++)
+		{
+			sum = sum + (n & 3);
+		}
+		return sum;
+	}
+
+	private int performMod(int refNumber)
+	{
+		int sum = 0;
+		for (int n = 0; n < refNumber; n++)
+		{
+			sum = sum + (n % 8);
+		}
+		return sum;
+	}
+
+	private int performRightShift(int refNumber)
+	{
+		int sum = 0;
+		for (int n = 0; n < refNumber; n++)
+		{
+			sum = sum + (n >> 3);
+		}
+		return sum;
+	}
+
+	private int performDivision(int refNumber)
+	{
+
+		int sum = 0;
+		for (int n = 0; n < refNumber; n++)
+		{
+			sum = sum + (n / 8);
+		}
+		return sum;
+	}
+}
