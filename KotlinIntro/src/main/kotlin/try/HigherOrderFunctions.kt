@@ -2,11 +2,14 @@ package `try`
 
 fun main(args: Array<String>) {
     val providers = Providers()
-    val allProviders = providers.getAllProviders()
+//    val allProviders = providers.getAllProviders()
+//    val allProviders = providers.getAllProviders("Random")
 //    allProviders.forEach { detial -> println("-- ${detial.providerName }\t ${detial.name}")} }
 //    allProviders.forEach { println("-- ${it.providerName }\t ${it.name}")} }// kotlin provides a default pointer it so we dont need to provide detail
 
 //    allProviders.forEach { println(it)} // prints the to string of ProviderDetails
+
+    val allProviders = providers.getAllProvidersEx("Random")
     allProviders.forEach ( ::println ) // same as above   , not as clean as it does not make it visible what class is being used
 }
 
