@@ -1,0 +1,14 @@
+Everything is public in kotlin buy default
+Kotlin has method expressions
+
+
+Classes (Signatory.kt)
+No boiler plate code
+All classes are final by default, therefore cannot be inherited from
+To make a class inheritable use keyword open
+
+class Person(val name : String, var age:Int)// val is final, var can be changed
+
+open class Supe(name : String, age:Int) : Person(name,age)// derived classes donot need to define val or var for inherited parameters
+
+init is called after the class initialization and complex initialization logics can be written in init block
