@@ -12,3 +12,27 @@ class Person(val name : String, var age:Int)// val is final, var can be changed
 open class Supe(name : String, age:Int) : Person(name,age)// derived classes donot need to define val or var for inherited parameters
 
 init is called after the class initialization and complex initialization logics can be written in init block
+
+primary constructor can be called from secondary constructor using this
+
+no statics instead we have companion objects
+
+Data classes have automatic implementations
+    getter
+    setters
+    toString
+    hashcode
+    equlas
+    copy
+
+Instead of void kotlin has Unit
+
+ ===================
+ Functions as arguments (HigherOrderFunctions)
+ use {} in the calling and pas a function inside it
+ this is the way to implement strategy in kotlin effectively as every call can have different passed function
+
+ Supported function constructs
+ map
+ flatmap
+ fold
